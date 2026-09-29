@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="Иллюстрация соснового берега с палатками у Обского моря">
+  <defs>
+    <clipPath id="frame"><rect x="16" y="16" width="868" height="918" rx="26"/></clipPath>
+    <pattern id="paper" width="42" height="42" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="8" r="1.15" fill="#263b2d" opacity=".12"/>
+      <circle cx="27" cy="34" r=".9" fill="#263b2d" opacity=".13"/>
+      <circle cx="37" cy="13" r=".75" fill="#263b2d" opacity=".1"/>
+    </pattern>
+    <pattern id="water-dots" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M8 11h9m22 29h6" fill="none" stroke="#f5f1e5" stroke-width="2" stroke-linecap="round" opacity=".44"/>
+    </pattern>
+    <symbol id="pine" viewBox="-23 -53 46 67">
+      <path d="M0 1v12" fill="none" stroke="#263b2d" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0-51-13-28h5l-14 19h7L-23 3q22 6 46 0L15-9h7L8-28h5Z" fill="#263b2d" stroke="#263b2d" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M0-43 7-29M0-29 10-13M-4-21-12-9M2-14 13-2" fill="none" stroke="#e6db68" stroke-width="1.4" stroke-linecap="round" opacity=".48"/>
+    </symbol>
+    <symbol id="mini-pine" viewBox="-13 -28 26 39">
+      <path d="M0-27-9-11h4L-12 1Q0 5 12 1L5-11h4Z" fill="#263b2d"/>
+      <path d="M0 2v8" fill="none" stroke="#263b2d" stroke-width="2"/>
+    </symbol>
+  </defs>
+
+  <rect width="900" height="950" fill="#f5f1e5"/>
+  <g clip-path="url(#frame)">
+    <rect x="16" y="16" width="868" height="918" fill="#f5f1e5"/>
+
+    <!-- Broad pine country and its quiet contour lines. -->
+    <path d="M-62 26H956V360c-65-31-102-46-162-42-110 8-145 75-255 73-94-1-158-58-247-52-125 8-202 101-354 89Z" fill="#dce5cf"/>
+    <path d="M-38 48C86 11 151 26 232 45c91 21 138-24 247-7 82 13 112 44 194 37 86-7 147-45 261-18M-35 90C64 50 143 55 226 79c93 26 155-10 246 4 81 13 117 47 194 45 100-2 179-55 273-26M-26 135c109-46 197-41 280-13 88 30 151-3 233 16 77 18 119 50 197 42 91-9 159-42 257-13M-24 186c112-48 201-37 282-8 76 27 146-9 228 10 87 19 119 56 201 52 99-5 178-53 271-21M-15 242c95-37 197-31 269-3 78 31 141-12 225 4 96 19 133 59 213 49 94-11 163-43 259-22M-5 304c92-33 170-20 245 4 80 25 154-14 243 5 88 18 121 54 209 42 110-16 185-45 261-22" fill="none" stroke="#829b80" stroke-width="2" opacity=".5"/>
+    <path d="M-60 26H956V360c-65-31-102-46-162-42-110 8-145 75-255 73-94-1-158-58-247-52-125 8-202 101-354 89Z" fill="url(#paper)"/>
+
+    <!-- The land rolls down into the reservoir. -->
+    <path d="M-40 497C74 457 138 466 228 480c96 14 160 2 249-43 77-39 127-79 205-75 100 5 171 72 258 67V980H-40Z" fill="#e7d7a5"/>
+    <path d="M-40 533c111-46 185-31 265-20 104 14 169-2 263-50 81-41 119-63 193-61 91 3 163 68 259 58V980H-40Z" fill="#a5c9c7"/>
+    <path d="M-40 533c111-46 185-31 265-20 104 14 169-2 263-50 81-41 119-63 193-61 91 3 163 68 259 58" fill="none" stroke="#263b2d" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-40 549c107-43 181-30 261-19 109 15 172-5 269-54 75-38 116-58 190-57 90 2 159 65 260 60" fill="none" stroke="#f5f1e5" stroke-width="2" stroke-dasharray="4 11" stroke-linecap="round" opacity=".9"/>
+    <path d="M-40 533c111-46 185-31 265-20 104 14 169-2 263-50 81-41 119-63 193-61 91 3 163 68 259 58V980H-40Z" fill="url(#water-dots)"/>
+
+    <!-- Deep water is drawn as flowing chart lines. -->
+    <g fill="none" stroke="#f5f1e5" stroke-width="3" stroke-linecap="round" opacity=".62">
+      <path d="M-20 613c127-49 214-2 321-23 114-23 167-100 290-116 126-17 218 65 329 35"/>
+      <path d="M-23 660c126-37 205 4 318-13 126-19 182-97 303-114 117-17 214 59 329 43"/>
+      <path d="M-30 712c117-36 213 4 327-10 137-17 200-89 315-107 120-20 213 48 314 38"/>
+      <path d="M-30 763c135-29 210 8 329-7 146-18 206-85 318-101 118-18 209 44 310 39"/>
+      <path d="M-23 816c121-30 222 4 335-8 132-14 206-69 327-88 120-19 200 36 291 31"/>
+      <path d="M-28 870c126-28 220 2 345-8 138-12 221-64 332-78 115-15 188 33 281 27"/>
+      <path d="M-25 919c136-24 234 3 351-6 136-11 219-49 333-65 100-13 182 25 269 22"/>
+    </g>
+    <g fill="none" stroke="#263b2d" stroke-width="1.4" opacity=".34" stroke-linecap="round">
+      <path d="M18 589c85-27 139-19 209-5m200-48c34-20 70-35 106-42m232-12c31 9 58 23 85 30"/>
+      <path d="M56 692c60-9 99-4 149 3m182-43c70-21 109-61 170-73m205 16c42 2 67 12 102 21"/>
+      <path d="M30 788c68-12 123 2 170 2m275-67c44-13 68-33 109-45m201 45c25 0 44 5 62 9"/>
+      <path d="M73 891c64-9 104-2 151 1m219-22c43-9 79-26 119-34m212-6c36 1 61 8 82 11"/>
+    </g>
+
+    <!-- Small island and reed banks lend the map its field-guide detail. -->
+    <path d="M565 694c28-10 60-9 91-3 15 4 32 14 23 20-27 16-85 17-118 5-13-5-12-16 4-22Z" fill="#e7d7a5" stroke="#263b2d" stroke-width="2.4"/>
+    <path d="M580 700c23-5 45-4 70 1" fill="none" stroke="#f5f1e5" stroke-width="2" stroke-linecap="round"/>
+    <use href="#mini-pine" x="584" y="701" width="25" height="36"/>
+    <use href="#mini-pine" x="608" y="694" width="22" height="33"/>
+    <use href="#mini-pine" x="633" y="702" width="24" height="35"/>
+    <g stroke="#263b2d" stroke-width="2" stroke-linecap="round" fill="none" opacity=".62">
+      <path d="M188 516l-7-15m7 15 4-19m-4 19 11-11M268 513l-5-13m5 13 6-15M806 452l-7-14m7 14 6-18m-6 18 12-13"/>
+      <path d="M519 459l-5-13m5 13 4-17m-4 17 10-12"/>
+    </g>
+
+    <!-- Camp clearing, fire and a family of tents. -->
+    <path d="M228 327c40-38 116-56 178-43 76 16 109 70 85 116-22 42-86 67-167 69-85 1-147-30-158-71-7-27 17-51 62-71Z" fill="#f5f1e5" stroke="#829b80" stroke-width="2.5" stroke-dasharray="6 8"/>
+    <path d="M230 400c21-8 43-11 66-10m135-47c18 14 30 33 31 49" fill="none" stroke="#829b80" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+    <g transform="translate(321 360) rotate(-5)">
+      <ellipse cx="7" cy="51" rx="88" ry="16" fill="#263b2d" opacity=".12"/>
+      <path d="M-82 42 2-76 90 42Z" fill="#e6db68" stroke="#263b2d" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M2-76 25 42h65Z" fill="#c9bf5e" stroke="#263b2d" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M-23 42 2-4l25 46Z" fill="#263b2d"/>
+      <path d="M-1-1V41" fill="none" stroke="#e6db68" stroke-width="3"/>
+      <path d="M-85 42h-17m193 0h15M2-77v-17" fill="none" stroke="#263b2d" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-103" cy="44" r="3" fill="#263b2d"/><circle cx="108" cy="44" r="3" fill="#263b2d"/>
+    </g>
+    <g transform="translate(457 387) scale(.68) rotate(9)">
+      <ellipse cx="4" cy="47" rx="75" ry="12" fill="#263b2d" opacity=".11"/>
+      <path d="M-76 42 0-61 81 42Z" fill="#a5c9c7" stroke="#263b2d" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M0-61 18 42h63Z" fill="#7aa8a4" stroke="#263b2d" stroke-width="4"/>
+      <path d="M-19 42 0 4l21 38Z" fill="#263b2d"/>
+    </g>
+    <g transform="translate(209 386)">
+      <circle cx="0" cy="0" r="22" fill="none" stroke="#263b2d" stroke-width="3" stroke-dasharray="6 6"/>
+      <path d="m0 13-8-14 7 4 2-20 9 17-8-3Z" fill="#d47a4c" stroke="#263b2d" stroke-width="2" stroke-linejoin="round"/>
+      <path d="m-15 17 28 5m-27 1 30-8" fill="none" stroke="#263b2d" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- The clustered trees frame the open camp and lead the eye to the shore. -->
+    <g opacity=".96">
+      <use href="#pine" x="54" y="69" width="69" height="100"/><use href="#pine" x="111" y="97" width="55" height="80"/>
+      <use href="#pine" x="167" y="48" width="77" height="111"/><use href="#pine" x="222" y="107" width="56" height="82"/>
+      <use href="#pine" x="328" y="45" width="73" height="106"/><use href="#pine" x="385" y="119" width="55" height="81"/>
+      <use href="#pine" x="495" y="48" width="66" height="97"/><use href="#pine" x="560" y="111" width="63" height="91"/>
+      <use href="#pine" x="675" y="54" width="77" height="110"/><use href="#pine" x="744" y="125" width="58" height="85"/>
+      <use href="#pine" x="805" y="64" width="75" height="108"/><use href="#pine" x="14" y="209" width="61" height="89"/>
+      <use href="#pine" x="75" y="256" width="49" height="71"/><use href="#pine" x="8" y="390" width="72" height="105"/>
+      <use href="#pine" x="110" y="384" width="52" height="76"/><use href="#pine" x="524" y="267" width="55" height="80"/>
+      <use href="#pine" x="607" y="243" width="73" height="106"/><use href="#pine" x="673" y="295" width="51" height="74"/>
+      <use href="#pine" x="751" y="235" width="64" height="93"/><use href="#pine" x="829" y="307" width="54" height="78"/>
+    </g>
+    <g opacity=".56">
+      <use href="#mini-pine" x="274" y="193" width="24" height="35"/><use href="#mini-pine" x="307" y="198" width="21" height="32"/>
+      <use href="#mini-pine" x="446" y="207" width="25" height="37"/><use href="#mini-pine" x="475" y="179" width="22" height="33"/>
+      <use href="#mini-pine" x="564" y="354" width="24" height="35"/><use href="#mini-pine" x="148" y="237" width="22" height="33"/>
+      <use href="#mini-pine" x="708" y="194" width="26" height="39"/><use href="#mini-pine" x="101" y="166" width="23" height="34"/>
+    </g>
+
+    <!-- A small landing and its rowboat. -->
+    <path d="M697 429 674 493l10 4 24-63Z" fill="#e6db68" stroke="#263b2d" stroke-width="3" stroke-linejoin="round"/>
+    <path d="m689 453 12 4m-18 10 12 4m-18 10 12 4" fill="none" stroke="#263b2d" stroke-width="2"/>
+    <g transform="translate(682 517) rotate(-22)">
+      <path d="M-36-8Q0-19 36-8L25 10Q0 21-25 10Z" fill="#263b2d"/>
+      <path d="M-28-6Q0-13 28-6L20 5Q0 13-20 5Z" fill="#e6db68"/>
+      <path d="M-4-8 1 10M-25-1 28-1" fill="none" stroke="#263b2d" stroke-width="2"/>
+      <path d="M26-2 51-22" fill="none" stroke="#263b2d" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- A warm evening sun mirrored in the lake. -->
+    <circle cx="335" cy="705" r="49" fill="#e6db68" opacity=".97"/>
+    <circle cx="335" cy="705" r="60" fill="none" stroke="#e6db68" stroke-width="2" opacity=".55"/>
+    <g fill="none" stroke="#e6db68" stroke-width="3" stroke-linecap="round" opacity=".85">
+      <path d="M290 772h90m-70 12h52m-36 12h28"/>
+    </g>
+
+    <!-- Atlas marks: compass rose, migratory birds, and a dotted route. -->
+    <g transform="translate(94 738)" stroke="#263b2d" stroke-width="2" fill="none" opacity=".76">
+      <circle r="34"/><circle r="25" stroke-width="1"/>
+      <path d="M0-42v-17M0 42v17M-42 0h-17M42 0h17" stroke-linecap="round"/>
+      <path d="M0-27 6-6 27 0 6 6 0 27-6 6-27 0-6-6Z" fill="#f5f1e5" stroke-linejoin="round"/>
+      <path d="M0-27 6-6 0 0-6-6Z" fill="#263b2d"/>
+      <circle r="3" fill="#263b2d"/>
+    </g>
+    <g fill="none" stroke="#263b2d" stroke-width="2.4" stroke-linecap="round" opacity=".68">
+      <path d="M762 680q8-9 17 0 9-9 17 0m-9 18q6-7 13 0 7-7 14 0"/>
+      <path d="M129 558q7-8 15 0 8-8 15 0"/>
+    </g>
+    <path d="M116 352c45-52 94-88 161-91 68-2 125 14 179-20 31-20 47-44 83-50" fill="none" stroke="#263b2d" stroke-width="2.4" stroke-dasharray="2 10" stroke-linecap="round" opacity=".52"/>
+  </g>
+  <rect x="16" y="16" width="868" height="918" rx="26" fill="none" stroke="#263b2d" stroke-width="3"/>
+</svg>
